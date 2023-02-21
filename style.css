@@ -30,7 +30,7 @@ header{
 .cards-list{
     display: grid;
     grid-template-columns: 1fr;
-    margin: 2rem;
+    margin: 4rem 12rem;
 }
 
 .card{
@@ -45,7 +45,7 @@ header{
 
 .fa-location-dot{
     color: #F55A5A;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 .card--location{
@@ -58,19 +58,15 @@ a{
 }
 
 .card--title{
-    margin-top: -5px; 
+    margin-top: 0px; 
 }
 
 .card--date{
-    font-size: 0.8rem;
-}
-
-.card--description{
-    
+    font-size: 1rem;
 }
 
 .card-text-block{
-    padding: 20px;
+    padding: 2rem;
 }
 
 .card-location-block{
@@ -81,6 +77,6 @@ a{
 }
 
 hr{
-    margin: 30px 0;
+    margin: 3rem 0;
     border: 1px solid #F5F5F5;
 }
